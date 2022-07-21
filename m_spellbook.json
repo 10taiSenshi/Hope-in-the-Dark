@@ -1,0 +1,74 @@
+[
+  {
+    "id": "megucabook",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": { "str": "Meguca Training Tool", "str_pl": "Meguca Training Tools" },
+    "//": "meduka book",
+    "description": "the book of debug megucas. if you see this, its a bug or you debugged this in.",
+    "weight": "585 g",
+    "volume": "250 ml",
+    "price": 5000,
+    "symbol": "?",
+    "color": "light_red",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+        "transformmegucahope",
+        "transformmegucacalm",
+        "transformmegucafeeling",
+        "altus_aqua_crystal",
+        "guntrick_ammospecial",
+        "guntrick_ammofire"
+      ]
+    }
+  },
+  {
+    "id": "prismpinkbook",
+    "type": "GENERIC",
+    "looks_like": "child_book",
+    "category": "spellbooks",
+    "name": { "str": "Prism Pink Diary", "str_pl": "Prism Pink Diaries" },
+    "//": "meduka book",
+    "description": "An unassuming notebook filled with doodles, random thoughts, and small depictions of your abilities. Use to practice your abilities.",
+    "weight": "585 g",
+    "volume": "250 ml",
+    "price": 5000,
+    "symbol": "?",
+    "color": "light_red",
+    "use_action": { "type": "learn_spell", "spells": [ "transformmegucahope", "ph_spell1", "ph_spell2", "ph_spell3", "ph_spell4" ] }
+  },
+  {
+    "id": "altusaquabook",
+    "type": "GENERIC",
+    "looks_like": "child_book",
+    "category": "spellbooks",
+    "name": { "str": "Altus Aqua Diary", "str_pl": "Altus Aqua Diaries" },
+    "//": "meduka book",
+    "description": "An expensive looking notebook, bound in supple leather, and a myriad of colourful bookmarks. It mostly functions as your diary, but also contains info about your abilities and the ways you have improved them. Use to practice your abilities.",
+    "weight": "585 g",
+    "volume": "250 ml",
+    "price": 5000,
+    "symbol": "?",
+    "color": "light_red",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [ "transformmegucacalm", "altus_aqua_crystal", "aa_spell1", "aa_spell2", "aa_spell3", "aa_spell4" ]
+    }
+  },
+  {
+    "id": "crushcreambook",
+    "type": "GENERIC",
+    "looks_like": "child_book",
+    "category": "spellbooks",
+    "name": { "str": "Crush Cream Diary", "str_pl": "Crush Cream Diaries" },
+    "//": "meduka book",
+    "description": "A scrappy looking book filled with doodles, pasted comic pictures, and small cutouts of cartoon characters in various cool poses. Use to practice your abilities.",
+    "weight": "585 g",
+    "volume": "250 ml",
+    "price": 5000,
+    "symbol": "?",
+    "color": "light_red",
+    "use_action": { "type": "learn_spell", "spells": [ "transformmegucafeeling", "cc_spell4" ] }
+  }
+]

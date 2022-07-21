@@ -1,0 +1,80 @@
+[
+  {
+    "type": "technique",
+    "id": "tec_ccpunch",
+    "name": "CC Punch",
+    "messages": [ "You throw a thunderous punch at %s", "<npcname> throws a thunderous punch at %s" ],
+    "unarmed_allowed": true,
+    "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 1.2 } ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_cccounterkick",
+    "name": "CC Spinning Kick",
+    "messages": [ "You counter %s with a spinning kick", "<npcname> throws a spinning kick counter at %s" ],
+    "skill_requirements": [ { "name": "unarmed", "level": 5 } ],
+    "unarmed_allowed": true,
+    "dodge_counter": true,
+    "crit_ok": true,
+    "knockback_dist": 1,
+    "knockback_spread": 1,
+    "stun_dur": 1,
+    "down_dur": 1,
+    "mult_bonuses": [ { "stat": "movecost", "scale": 0.0 }, { "stat": "damage", "type": "bash", "scale": 1.25 } ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_cc_rapid",
+    "name": "CC Lightning Jab",
+    "messages": [ "You punch like lightning at %s", "<npcname> punch like lightning at %s" ],
+    "skill_requirements": [ { "name": "unarmed", "level": 2 } ],
+    "unarmed_allowed": true,
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.5 },
+      { "stat": "damage", "type": "bash", "scale": 0.66 },
+      { "stat": "damage", "type": "cut", "scale": 0.66 },
+      { "stat": "damage", "type": "stab", "scale": 0.66 }
+    ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_cc_crush",
+    "name": "CC Crush",
+    "messages": [ "You hit %s with a crushing blow.", "<npcname> hit %s with a crushing blow." ],
+    "skill_requirements": [ { "name": "unarmed", "level": 4 } ],
+    "unarmed_allowed": true,
+    "crit_tec": true,
+    "stun_dur": 1,
+    "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 1.4 } ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_cc_spin",
+    "name": "CC Ground Stunner",
+    "unarmed_allowed": true,
+    "weighting": 2,
+    "messages": [
+      "You smash the ground, damaging %s and everyone nearby with the shockwave",
+      "<npcname> smash the ground, damaging %s and everyone nearby with the shockwave"
+    ],
+    "skill_requirements": [ { "name": "unarmed", "level": 6 } ],
+    "aoe": "spin",
+    "description": "Attack adjacent enemies with a damaging aoe.",
+    "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 0.7 } ]
+  },
+  {
+    "type": "technique",
+    "id": "tech_cc_shockwave",
+    "name": "CC Shock",
+    "unarmed_allowed": true,
+    "weighting": 2,
+    "messages": [
+      "You throw a crushing punch %s, damaging everyone near them with a shockwave",
+      "<npcname> throw a crushing punch %s, damaging everyone near them with a shockwave"
+    ],
+    "skill_requirements": [ { "name": "unarmed", "level": 5 } ],
+    "aoe": "wide",
+    "description": "Smash the enemy and emanate a shockwave in front of you.",
+    "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 0.8 } ]
+  }
+]

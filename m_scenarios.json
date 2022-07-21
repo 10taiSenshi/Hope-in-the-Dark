@@ -1,0 +1,8 @@
+[
+  {
+    "copy-from": "overrun",
+    "type": "scenario",
+    "extend": { "professions": [ "meguca_pink", "meguca_aqua", "meguca_cream", "guntrick", "meguca_panzerritter" ] },
+    "id": "overrun"
+  }
+]

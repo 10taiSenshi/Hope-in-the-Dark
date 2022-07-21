@@ -1,0 +1,90 @@
+[
+  {
+    "id": "style_eskrima",
+    "copy-from": "style_eskrima",
+    "type": "martial_art",
+    "name": "Eskrima",
+    "extend": { "weapons": [ "megucahopewand" ] }
+  },
+  {
+    "id": "style_fencing",
+    "copy-from": "style_fencing",
+    "type": "martial_art",
+    "name": "Fencing",
+    "extend": { "weapons": [ "megucarapiergun" ] }
+  },
+  {
+    "id": "style_krav_maga",
+    "copy-from": "style_krav_maga",
+    "type": "martial_art",
+    "name": "Krav Maga",
+    "extend": { "weapons": [ "megucarapiergun", "megucahopewand" ] }
+  },
+  {
+    "id": "style_swordsmanship",
+    "copy-from": "style_swordsmanship",
+    "type": "martial_art",
+    "name": "Medieval Swordsmanship",
+    "extend": { "weapons": [ "megucarapiergun" ] }
+  },
+  {
+    "id": "style_ninjutsu",
+    "copy-from": "style_ninjutsu",
+    "type": "martial_art",
+    "name": "Ninjutsu",
+    "extend": { "weapons": [ "megucarapiergun", "megucahopewand" ] }
+  },
+  {
+    "id": "style_niten",
+    "copy-from": "style_niten",
+    "type": "martial_art",
+    "name": "Niten Ichi-Ryu",
+    "extend": { "weapons": [ "megucarapiergun" ] }
+  },
+  {
+    "type": "martial_art",
+    "id": "style_ccrider",
+    "name": { "str": "Masked Rider C.C Special" },
+    "description": "The fighting techniques of those who fight for Justice! To protect the down trodden, this martial art for the super human was created! It is inspired by heroes, sentais and cartoons, but it seems to work so you continue using it.",
+    "initiate": [
+      "You strike a powerful pose, before shifting into an agile fighting pose.",
+      "%s strikes a powerful pose and readies their fists."
+    ],
+    "learn_difficulty": 1,
+    "arm_block": 1,
+    "leg_block": 2,
+    "static_buffs": [
+      {
+        "id": "buff_ccrider",
+        "name": "C.C Pose",
+        "description": "A powerful pose and stance helps you both feel confident and more balanced to take on blows.\n\n+2 Bash damage, Blocked damge reduced by 80% of Strength.",
+        "unarmed_allowed": true,
+        "flat_bonuses": [ { "stat": "block", "scaling-stat": "str", "scale": 0.8 }, { "stat": "damage", "type": "bash", "scale": 2.0 } ]
+      }
+    ],
+    "onmove_buffs": [
+      {
+        "id": "buff_ccrider_onmove",
+        "name": "Swift Rider",
+        "description": "A hero is untouched by evil, and thus you must yourself not let yourself be hit as you move.\n\n+1.0 Dodge skill.\nLasts for 2 turns.  Stacks 3 times.",
+        "skill_requirements": [ { "name": "unarmed", "level": 3 } ],
+        "unarmed_allowed": true,
+        "buff_duration": 2,
+        "max_stacks": 3,
+        "flat_bonuses": [ { "stat": "dodge", "scale": 1.0 } ]
+      }
+    ],
+    "ondodge_buffs": [
+      {
+        "id": "buff_ccrider_ondodge",
+        "name": "Keen Eye",
+        "description": "An opening has been seen!\n\n+25% Bash damage.\nLasts for 2 turn.",
+        "skill_requirements": [ { "name": "unarmed", "level": 5 } ],
+        "unarmed_allowed": true,
+        "buff_duration": 2,
+        "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 1.25 } ]
+      }
+    ],
+    "techniques": [ "tec_ccpunch", "tec_cccounterkick", "tec_cc_rapid", "tec_cc_crush", "tec_cc_spin", "tech_cc_shockwave" ]
+  }
+]

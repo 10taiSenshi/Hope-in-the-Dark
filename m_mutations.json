@@ -1,0 +1,159 @@
+[
+  {
+    "type": "mutation",
+    "id": "meguca_hope",
+    "name": { "str": "Prisma Pink" },
+    "points": 0,
+    "description": "Hope beyond hope. Despair will never prevail as long as you still live. Prisma Pink, Engage! Enhances your overall abilities slightly in a balanced fashion. ",
+    "starting_trait": false,
+    "armor": [ { "parts": "ALL", "physical": 5 } ],
+    "passive_mods": { "dex_mod": 2, "str_mod": 2, "per_mod": 2, "int_mod": 2 },
+    "mana_regen_multiplier": 2.0
+  },
+  {
+    "type": "overlay_order",
+    "overlay_ordering": [ { "id": [ "meguca_hope" ], "order": 1700 } ]
+  },
+  {
+    "type": "mutation",
+    "id": "meguca_calm",
+    "name": { "str": "Altus Aqua" },
+    "points": 0,
+    "description": "The iron will of humanity, the blade of light shall pierce through the dark. Altus Aqua, ready! Enhances your overall abilities slightly, favouring speed.",
+    "starting_trait": false,
+    "armor": [ { "parts": "ALL", "physical": 3 } ],
+    "passive_mods": { "dex_mod": 5, "str_mod": 0, "per_mod": 3, "int_mod": 1 },
+    "mana_multiplier": 1.5
+  },
+  {
+    "type": "overlay_order",
+    "overlay_ordering": [ { "id": [ "meguca_calm" ], "order": 1700 } ]
+  },
+  {
+    "type": "mutation",
+    "id": "meguca_feeling",
+    "name": { "str": "Crush Cream" },
+    "points": 0,
+    "description": "Justice! Strength! The weak will not be trampled anymore! Crush Cream, Transform! Enhances your overall abilities slightly, favouring strength.",
+    "starting_trait": false,
+    "armor": [ { "parts": "ALL", "physical": 7 } ],
+    "passive_mods": { "dex_mod": 3, "str_mod": 5, "per_mod": 1, "int_mod": 0 },
+    "initial_ma_styles": [ "style_ccrider" ],
+    "attacks": [
+      {
+        "attack_text_u": "You unleash a flurry of punches at %s",
+        "attack_text_npc": "%1$s unleash a flurry of punches at %2$s",
+        "chance": 30,
+        "base_damage": { "damage_type": "bash", "amount": 5 },
+        "strength_damage": { "damage_type": "bash", "amount": 2 }
+      },
+      {
+        "attack_text_u": "You unleash a flurry of punches at %s",
+        "attack_text_npc": "%1$s unleash a flurry of punches at %2$s",
+        "chance": 30,
+        "base_damage": { "damage_type": "bash", "amount": 5 },
+        "strength_damage": { "damage_type": "bash", "amount": 2 }
+      },
+      {
+        "attack_text_u": "You unleash a flurry of punches at %s",
+        "attack_text_npc": "%1$s unleash a flurry of punches at %2$s",
+        "chance": 30,
+        "base_damage": { "damage_type": "bash", "amount": 5 },
+        "strength_damage": { "damage_type": "bash", "amount": 2 }
+      },
+      {
+        "attack_text_u": "You unleash a flurry of punches at %s",
+        "attack_text_npc": "%1$s unleash a flurry of punches at %2$s",
+        "chance": 30,
+        "base_damage": { "damage_type": "bash", "amount": 5 },
+        "strength_damage": { "damage_type": "bash", "amount": 2 }
+      },
+      {
+        "attack_text_u": "You unleash a flurry of punches at %s",
+        "attack_text_npc": "%1$s unleash a flurry of punches at %2$s",
+        "chance": 30,
+        "base_damage": { "damage_type": "bash", "amount": 5 },
+        "strength_damage": { "damage_type": "bash", "amount": 2 }
+      },
+      {
+        "attack_text_u": "You unleash a flurry of punches at %s",
+        "attack_text_npc": "%1$s unleash a flurry of punches at %2$s",
+        "chance": 30,
+        "base_damage": { "damage_type": "bash", "amount": 5 },
+        "strength_damage": { "damage_type": "bash", "amount": 2 }
+      },
+      {
+        "attack_text_u": "You unleash a flurry of punches at %s",
+        "attack_text_npc": "%1$s unleash a flurry of punches at %2$s",
+        "chance": 30,
+        "base_damage": { "damage_type": "bash", "amount": 5 },
+        "strength_damage": { "damage_type": "bash", "amount": 2 }
+      },
+      {
+        "attack_text_u": "You unleash a flurry of punches at %s",
+        "attack_text_npc": "%1$s unleash a flurry of punches at %2$s",
+        "chance": 30,
+        "base_damage": { "damage_type": "bash", "amount": 5 },
+        "strength_damage": { "damage_type": "bash", "amount": 2 }
+      },
+      {
+        "attack_text_u": "You unleash a flurry of punches at %s",
+        "attack_text_npc": "%1$s unleash a flurry of punches at %2$s",
+        "chance": 30,
+        "base_damage": { "damage_type": "bash", "amount": 5 },
+        "strength_damage": { "damage_type": "bash", "amount": 2 }
+      },
+      {
+        "attack_text_u": "You unleash a flurry of punches at %s",
+        "attack_text_npc": "%1$s unleash a flurry of punches at %2$s",
+        "chance": 30,
+        "base_damage": { "damage_type": "bash", "amount": 5 },
+        "strength_damage": { "damage_type": "bash", "amount": 2 }
+      }
+    ]
+  },
+  {
+    "type": "overlay_order",
+    "overlay_ordering": [ { "id": [ "meguca_feeling" ], "order": 1700 } ]
+  },
+  {
+    "type": "mutation",
+    "id": "meguca_guntrick",
+    "name": { "str": "Gun Trick" },
+    "points": 0,
+    "description": "When it comes to problems, you prefer using your guns to deal with them. Magic just makes it easier to solve them.",
+    "starting_trait": false,
+    "armor": [ { "parts": "ALL", "physical": 5 } ],
+    "passive_mods": { "dex_mod": 3, "str_mod": 0, "per_mod": 5, "int_mod": 1 }
+  },
+  {
+    "type": "overlay_order",
+    "overlay_ordering": [ { "id": [ "meguca_guntrick" ], "order": 1700 } ]
+  },
+  {
+    "type": "mutation",
+    "id": "meguca_panzerritter",
+    "name": { "str": "PanzerRitter" },
+    "points": 0,
+    "description": "Magic beams? Transformations? No, your magic lies within infusing items. Subtle but just as effective.",
+    "starting_trait": false,
+    "armor": [ { "parts": "ALL", "physical": 3 } ],
+    "passive_mods": { "dex_mod": 1, "str_mod": 1, "per_mod": 1, "int_mod": 1 },
+    "encumbrance_always": [
+      [ "torso", -50 ],
+      [ "head", -25 ],
+      [ "arm_l", -25 ],
+      [ "arm_r", -25 ],
+      [ "hand_l", -25 ],
+      [ "hand_r", -25 ],
+      [ "leg_l", -25 ],
+      [ "leg_r", -25 ],
+      [ "foot_l", -25 ],
+      [ "foot_r", -25 ]
+    ]
+  },
+  {
+    "type": "overlay_order",
+    "overlay_ordering": [ { "id": [ "meguca_panzerritter" ], "order": 1700 } ]
+  }
+]

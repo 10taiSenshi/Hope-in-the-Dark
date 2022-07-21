@@ -1,0 +1,25 @@
+[
+  {
+    "id": "pr_shield",
+    "looks_like": "shield_buckler",
+    "type": "ARMOR",
+    "name": "Panzer Shield",
+    "category": "armor",
+    "description": "An odd circular disc strapped onto the arm. Its surface is etched with a spiraling design incorporating small gems embedded in its surface. Through an unknown means, you could store whatever you want inside its back, and grasp whatever items you need simply by thinking about it while reaching in. It makes objects about 5 times lighter when you're wearing it, but it doesn't actually make you stronger. Items inside will still weight you down.",
+    "weight": "1500 g",
+    "volume": "2500 ml",
+    "price": 140000,
+    "bashing": 8,
+    "storage": "9999 L",
+    "weight_capacity_modifier": 5,
+    "material": "steel",
+    "symbol": "[",
+    "color": "dark_gray",
+    "covers": [ "arm_either", "hand_either" ],
+    "coverage": 30,
+    "encumbrance": 8,
+    "material_thickness": 6,
+    "techniques": [ "WBLOCK_2" ],
+    "flags": [ "OVERSIZE", "STURDY", "BELTED", "BLOCK_WHILE_WORN" ]
+  }
+]

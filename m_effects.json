@@ -1,0 +1,77 @@
+[
+  {
+    "type": "effect_type",
+    "id": "megucahopebless",
+    "name": [ "Prisma Pink Form" ],
+    "desc": [ "You are in the Prisma Pink form." ],
+    "apply_message": "Hope has come!",
+    "remove_message": "Your energy fades.",
+    "rating": "good",
+    "base_mods": { "int_mod": [ 5 ], "per_mod": [ 5 ], "dex_mod": [ 5 ], "str_mod": [ 5 ], "speed_mod": [ 10 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "megucacalmbless",
+    "name": [ "Altus Aqua Form" ],
+    "desc": [ "You are in the Altus Aqua form." ],
+    "apply_message": "Calm suffuses throughout you; punishment is upon the sinners!",
+    "remove_message": "Your energy fades.",
+    "rating": "good",
+    "base_mods": { "int_mod": [ 3 ], "per_mod": [ 5 ], "dex_mod": [ 10 ], "str_mod": [ 0 ], "speed_mod": [ 30 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "megucafeelingbless",
+    "name": [ "Crush Cream Form" ],
+    "desc": [ "You are in the Crush Cream form." ],
+    "apply_message": "Where evil reigns, Justice has come!",
+    "remove_message": "Your energy fades.",
+    "rating": "good",
+    "base_mods": { "int_mod": [ 0 ], "per_mod": [ 5 ], "dex_mod": [ 7 ], "str_mod": [ 12 ], "speed_mod": [ 5 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "megucafeelingoverdrive",
+    "name": [ "Crush Cream Overdrive" ],
+    "desc": [ "Your body is being pushed to the limits, exuding a large amount of mana." ],
+    "apply_message": "Your muscles flex as you start using your mana explosively.",
+    "remove_message": "Mana fades from your body as you return to normal.",
+    "rating": "good",
+    "base_mods": { "int_mod": [ 5 ], "per_mod": [ 10 ], "dex_mod": [ 15 ], "str_mod": [ 30 ], "speed_mod": [ 100 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "overdrivefatigue",
+    "name": [ "Overdrive Pains" ],
+    "desc": [ "Exerting your body to that extent wasn't good for your health." ],
+    "miss_messages": [ [ "Your body feels like its falling apart.", 1 ] ],
+    "rating": "bad",
+    "pain_sizing": true,
+    "hurt_sizing": true,
+    "main_parts_only": true,
+    "max_duration": "15 m",
+    "base_mods": { "pain_min": [ 1 ], "pain_chance": [ 130, 700 ], "hurt_min": [ 1 ], "hurt_chance": [ 350, 1700 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_ground_freeze",
+    "name": [ "Ground Freeze" ],
+    "desc": [ "Your legs are being frozen to the ground!" ],
+    "max_intensity": 4,
+    "int_add_val": 1,
+    "apply_message": "Your legs freeze to the ground.",
+    "remove_message": "The ice weakens enough to break free.",
+    "base_mods": { "speed_mod": [ -40 ] },
+    "scaling_mods": { "speed_mod": [ -10 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "world_freeze",
+    "name": [ "Freeze Domain" ],
+    "desc": [ "The ultimate concept of 'freeze'. Even time itself is not exempt from this effect." ],
+    "apply_message": "The world slows down around you.",
+    "remove_message": "The world returns to normal speeds.",
+    "rating": "good",
+    "base_mods": { "dex_mod": [ 4 ], "speed_mod": [ 800 ] }
+  }
+]

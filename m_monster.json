@@ -1,0 +1,49 @@
+[
+  {
+    "id": "mon_aaflintlock",
+    "type": "MONSTER",
+    "name": "Enchanted Flintlock",
+    "description": "Summoned flying flintlocks. Will help you mete out judgement on the sinners.",
+    "looks_like": "rifle_flintlock",
+    "default_faction": "player",
+    "volume": "32500 ml",
+    "weight": "41500 g",
+    "hp": 50,
+    "speed": 120,
+    "symbol": "/",
+    "color": "white",
+    "aggression": 100,
+    "morale": 100,
+    "dodge": 6,
+    "luminance": 16,
+    "armor_bash": 3,
+    "armor_cut": 3,
+    "armor_bullet": 3,
+    "vision_day": 30,
+    "vision_night": 30,
+    "material": [ "steel" ],
+    "starting_ammo": { "flintlock_ammo": 400 },
+    "harvest": "exempt",
+    "special_attacks": [
+      {
+        "type": "gun",
+        "cooldown": 1,
+        "move_cost": 150,
+        "gun_type": "longrifle_flintlock_fake",
+        "ammo_type": "flintlock_ammo",
+        "fake_skills": [ [ "gun", 5 ], [ "rifle", 5 ] ],
+        "fake_str": 16,
+        "fake_dex": 12,
+        "ranges": [ [ 0, 20, "DEFAULT" ] ],
+        "require_targeting_npc": true,
+        "require_targeting_monster": true,
+        "laser_lock": false,
+        "no_crits": true,
+        "targeting_cost": 200,
+        "targeting_timeout_extend": -10
+      }
+    ],
+    "death_function": [ "MELT" ],
+    "flags": [ "SEES", "HEARS", "NOHEAD", "HARDTOSHOOT", "FLIES", "PRIORITIZE_TARGETS", "NO_BREATHE", "NOGIB" ]
+  }
+]
