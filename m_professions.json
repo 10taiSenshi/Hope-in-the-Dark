@@ -10,13 +10,26 @@
       { "id": "ph_spell1", "level": 1 },
       { "id": "ph_spell2", "level": 1 },
       { "id": "ph_spell3", "level": 1 },
-      { "id": "ph_spell4", "level": 1 }
+      { "id": "ph_spell4", "level": 1 },
+      { "id": "altus_aqua_crystal", "level": 1 },
+      { "id": "meguca_repairplate", "level": 1 }
     ],
     "traits": [ "meguca_hope" ],
     "skills": [ { "level": 2, "name": "spellcraft" }, { "level": 1, "name": "dodge" } ],
     "items": {
       "both": {
-        "items": [ "tshirt", "socks", "sneakers", "ZSG", "backpack", "wristwatch", "prismpinkbook", "megucahopewand", "smart_phone" ]
+        "items": [
+          "tshirt",
+          "socks",
+          "sneakers",
+          "ZSG",
+          "backpack",
+          "wristwatch",
+          "prismpinkbook",
+          "megucahopewand",
+          "smart_phone",
+          "medukarepair"
+        ]
       },
       "male": [ "pants", "boxer_shorts" ],
       "female": [ "skirt", "bra", "boy_shorts" ]
@@ -31,6 +44,7 @@
     "spells": [
       { "id": "transformmegucacalm", "level": 1 },
       { "id": "altus_aqua_crystal", "level": 1 },
+      { "id": "meguca_repairplate", "level": 1 },
       { "id": "aa_spell1", "level": 1 },
       { "id": "aa_spell2", "level": 1 },
       { "id": "aa_spell3", "level": 1 },
@@ -40,7 +54,18 @@
     "traits": [ "meguca_calm" ],
     "items": {
       "both": {
-        "items": [ "tshirt", "socks", "sneakers", "ZSG", "backpack", "wristwatch", "altusaquabook", "megucarapiergun", "smart_phone" ]
+        "items": [
+          "tshirt",
+          "socks",
+          "sneakers",
+          "ZSG",
+          "backpack",
+          "wristwatch",
+          "altusaquabook",
+          "megucarapiergun",
+          "smart_phone",
+          "medukarepair"
+        ]
       },
       "male": [ "pants", "boxer_shorts" ],
       "female": [ "skirt", "bra", "boy_shorts" ]
@@ -52,7 +77,12 @@
     "name": "Crush Cream",
     "description": "The cries of the helpless innocent had filled the world for too long! Justice is here! Judgement is here! Crush Cream, Transform!",
     "points": 3,
-    "spells": [ { "id": "transformmegucafeeling", "level": 1 }, { "id": "cc_spell4", "level": 1 } ],
+    "spells": [
+      { "id": "transformmegucafeeling", "level": 1 },
+      { "id": "cc_spell4", "level": 1 },
+      { "id": "meguca_repairplate", "level": 1 },
+      { "id": "altus_aqua_crystal", "level": 1 }
+    ],
     "skills": [ { "level": 1, "name": "unarmed" }, { "level": 1, "name": "melee" }, { "level": 1, "name": "dodge" } ],
     "traits": [ "meguca_feeling" ],
     "vehicle": "motorcycle_sidecart",
@@ -67,7 +97,8 @@
           "wristwatch",
           "crushcreambook",
           "megucafeelingknuckles",
-          "smart_phone"
+          "smart_phone",
+          "medukarepair"
         ]
       },
       "male": [ "pants", "boxer_shorts" ],
@@ -84,13 +115,15 @@
       { "id": "guntrick_ammospecial", "level": 1 },
       { "id": "guntrick_ammofire", "level": 1 },
       { "id": "guntrick_ammoblast", "level": 1 },
-      { "id": "guntrick_ammolast", "level": 1 }
+      { "id": "guntrick_ammolast", "level": 1 },
+      { "id": "altus_aqua_crystal", "level": 1 },
+      { "id": "meguca_repairplate", "level": 1 }
     ],
     "skills": [ { "level": 1, "name": "gun" }, { "level": 1, "name": "pistol" }, { "level": 1, "name": "dodge" } ],
     "traits": [ "meguca_guntrick" ],
     "items": {
       "both": {
-        "items": [ "tshirt", "cowboy_hat", "socks", "sneakers", "ZSG", "backpack", "wristwatch", "smart_phone" ],
+        "items": [ "tshirt", "cowboy_hat", "socks", "sneakers", "ZSG", "backpack", "wristwatch", "smart_phone", "medukarepair" ],
         "entries": [
           { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
           { "item": "guntrickponcho", "ammo-item": "45colt_jhp", "charges": 50 },
@@ -107,11 +140,45 @@
     "name": "Panzerritter",
     "description": "You never did have the head for more flashy magical stuff. Instead you trained with your magic to be able to wear heavier armor without penalty. As if in sympathy to your desire, a shield appeared on your arm, allowing you to store almost anything in it, with the caveat that you still had to carry the weight of all the items you put in it.",
     "points": 3,
-    "spells": [ { "id": "altus_aqua_crystal", "level": 1 } ],
+    "spells": [ { "id": "altus_aqua_crystal", "level": 1 }, { "id": "meguca_repairplate", "level": 1 } ],
     "skills": [ { "level": 1, "name": "gun" }, { "level": 1, "name": "melee" }, { "level": 1, "name": "dodge" } ],
     "traits": [ "meguca_panzerritter" ],
     "items": {
-      "both": { "items": [ "tshirt", "socks", "sneakers", "ZSG", "backpack", "wristwatch", "smart_phone", "pr_shield" ] },
+      "both": {
+        "items": [ "tshirt", "socks", "sneakers", "ZSG", "backpack", "wristwatch", "smart_phone", "pr_shield", "medukarepair" ]
+      },
+      "male": [ "pants", "boxer_shorts" ],
+      "female": [ "skirt", "bra", "boy_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "meguca_rider",
+    "name": "Red Rider",
+    "description": "Chosen by the Gold Bridle of Bellorophon, you have become the Red Rider, saviour of the meek. With the Geist Horses in the special summonable yokes, you will ride ludicriously huge and heavy chariots to rival even the mightiest tanks.",
+    "points": 3,
+    "spells": [
+      { "id": "altus_aqua_crystal", "level": 1 },
+      { "id": "meguca_repairplate", "level": 1 },
+      { "id": "rr_horsecall", "level": 1 },
+      { "id": "rr_yoke", "level": 1 }
+    ],
+    "skills": [ { "level": 2, "name": "spellcraft" }, { "level": 2, "name": "mechanics" }, { "level": 2, "name": "driving" } ],
+    "items": {
+      "both": {
+        "items": [
+          "tshirt",
+          "socks",
+          "sneakers",
+          "ZSG",
+          "backpack",
+          "wristwatch",
+          "smart_phone",
+          "rideryoke_harness",
+          "magic_bridle",
+          "medukarepair"
+        ]
+      },
       "male": [ "pants", "boxer_shorts" ],
       "female": [ "skirt", "bra", "boy_shorts" ]
     }

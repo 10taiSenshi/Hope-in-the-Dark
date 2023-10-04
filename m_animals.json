@@ -1,0 +1,21 @@
+[
+  {
+    "id": "rideryoke_harness",
+    "type": "WHEEL",
+    "name": { "str": "shimmering yoke and harness", "str_pl": "shimmering yokes and harnesses" },
+    "category": "veh_parts",
+    "description": "Magical yoke and harness, specialized for a single type of mount.",
+    "weight": "1000 g",
+    "volume": "3750 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "bashing": 0,
+    "to_hit": 0,
+    "material": [ "meguca_alloy" ],
+    "symbol": "H",
+    "color": "yellow",
+    "diameter": 8,
+    "width": 4,
+    "looks_like": "foldframe"
+  }
+]

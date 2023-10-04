@@ -1,0 +1,35 @@
+[
+  {
+    "id": "meguca_plate",
+    "copy-from": "kevlar_plate",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": { "str": "MAGIC plate" },
+    "description": "This is a plate of pure will.  It could be used to repair items made of magic of a similar type.",
+    "weight": "100 g",
+    "volume": "100 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": "meguca_hope",
+    "symbol": ",",
+    "color": "green",
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "sheet_meguca",
+    "copy-from": "sheet_kevlar",
+    "type": "AMMO",
+    "category": "spare_parts",
+    "name": { "str": "MAGIC sheet" },
+    "description": "A sheet of pure will. This is its pliable sheet form thats easy to stitch with.",
+    "weight": "1 g",
+    "volume": "100 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": "meguca_alloy",
+    "symbol": "=",
+    "color": "dark_gray",
+    "count": 100,
+    "ammo_type": "components"
+  }
+]

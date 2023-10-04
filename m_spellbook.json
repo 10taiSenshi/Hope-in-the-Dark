@@ -24,6 +24,21 @@
     }
   },
   {
+    "id": "medukacrystalbook",
+    "type": "GENERIC",
+    "looks_like": "child_book",
+    "category": "spellbooks",
+    "name": { "str": "Book of Mana Crystal", "str_pl": "Books of Mana Crystal" },
+    "//": "meduka book",
+    "description": "A simple notebook detailling the nuances of crystalizing mana",
+    "weight": "585 g",
+    "volume": "250 ml",
+    "price": 5000,
+    "symbol": "?",
+    "color": "light_red",
+    "use_action": { "type": "learn_spell", "spells": [ "altus_aqua_crystal" ] }
+  },
+  {
     "id": "prismpinkbook",
     "type": "GENERIC",
     "looks_like": "child_book",
@@ -70,5 +85,20 @@
     "symbol": "?",
     "color": "light_red",
     "use_action": { "type": "learn_spell", "spells": [ "transformmegucafeeling", "cc_spell4" ] }
+  },
+  {
+    "id": "redriderbook",
+    "type": "GENERIC",
+    "looks_like": "child_book",
+    "category": "spellbooks",
+    "name": { "str": "Red Rider's Notebook", "str_pl": "Red Rider's Notebooks" },
+    "//": "meduka book",
+    "description": "Notepad weathered yellow, filled with sheafs of research on the Geist Stallion.",
+    "weight": "585 g",
+    "volume": "250 ml",
+    "price": 5000,
+    "symbol": "?",
+    "color": "light_red",
+    "use_action": { "type": "learn_spell", "spells": [ "rr_horsecall", "altus_aqua_crystal" ] }
   }
 ]

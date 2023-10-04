@@ -43,70 +43,70 @@
       {
         "attack_text_u": "You unleash a flurry of punches at %s",
         "attack_text_npc": "%1$s unleash a flurry of punches at %2$s",
-        "chance": 30,
+        "chance": 10,
         "base_damage": { "damage_type": "bash", "amount": 5 },
         "strength_damage": { "damage_type": "bash", "amount": 2 }
       },
       {
         "attack_text_u": "You unleash a flurry of punches at %s",
         "attack_text_npc": "%1$s unleash a flurry of punches at %2$s",
-        "chance": 30,
+        "chance": 10,
         "base_damage": { "damage_type": "bash", "amount": 5 },
         "strength_damage": { "damage_type": "bash", "amount": 2 }
       },
       {
         "attack_text_u": "You unleash a flurry of punches at %s",
         "attack_text_npc": "%1$s unleash a flurry of punches at %2$s",
-        "chance": 30,
+        "chance": 10,
         "base_damage": { "damage_type": "bash", "amount": 5 },
         "strength_damage": { "damage_type": "bash", "amount": 2 }
       },
       {
         "attack_text_u": "You unleash a flurry of punches at %s",
         "attack_text_npc": "%1$s unleash a flurry of punches at %2$s",
-        "chance": 30,
+        "chance": 10,
         "base_damage": { "damage_type": "bash", "amount": 5 },
         "strength_damage": { "damage_type": "bash", "amount": 2 }
       },
       {
         "attack_text_u": "You unleash a flurry of punches at %s",
         "attack_text_npc": "%1$s unleash a flurry of punches at %2$s",
-        "chance": 30,
+        "chance": 10,
         "base_damage": { "damage_type": "bash", "amount": 5 },
         "strength_damage": { "damage_type": "bash", "amount": 2 }
       },
       {
         "attack_text_u": "You unleash a flurry of punches at %s",
         "attack_text_npc": "%1$s unleash a flurry of punches at %2$s",
-        "chance": 30,
+        "chance": 10,
         "base_damage": { "damage_type": "bash", "amount": 5 },
         "strength_damage": { "damage_type": "bash", "amount": 2 }
       },
       {
         "attack_text_u": "You unleash a flurry of punches at %s",
         "attack_text_npc": "%1$s unleash a flurry of punches at %2$s",
-        "chance": 30,
+        "chance": 10,
         "base_damage": { "damage_type": "bash", "amount": 5 },
         "strength_damage": { "damage_type": "bash", "amount": 2 }
       },
       {
         "attack_text_u": "You unleash a flurry of punches at %s",
         "attack_text_npc": "%1$s unleash a flurry of punches at %2$s",
-        "chance": 30,
+        "chance": 10,
         "base_damage": { "damage_type": "bash", "amount": 5 },
         "strength_damage": { "damage_type": "bash", "amount": 2 }
       },
       {
         "attack_text_u": "You unleash a flurry of punches at %s",
         "attack_text_npc": "%1$s unleash a flurry of punches at %2$s",
-        "chance": 30,
+        "chance": 10,
         "base_damage": { "damage_type": "bash", "amount": 5 },
         "strength_damage": { "damage_type": "bash", "amount": 2 }
       },
       {
         "attack_text_u": "You unleash a flurry of punches at %s",
         "attack_text_npc": "%1$s unleash a flurry of punches at %2$s",
-        "chance": 30,
+        "chance": 10,
         "base_damage": { "damage_type": "bash", "amount": 5 },
         "strength_damage": { "damage_type": "bash", "amount": 2 }
       }

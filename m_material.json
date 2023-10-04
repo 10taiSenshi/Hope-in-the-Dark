@@ -4,7 +4,7 @@
     "id": "meguca_hope",
     "name": "Hopes and Dreams",
     "//": "meant to be magical material that is easy to compact, compress, but can remain rigid.",
-    "density": 5,
+    "density": 1,
     "specific_heat_liquid": 4.01,
     "specific_heat_solid": 4.01,
     "latent_heat": 330,
@@ -18,6 +18,7 @@
     "elec_resist": 15,
     "chip_resist": 15,
     "dmg_adj": [ "scratched", "cut", "shredded", "tattered" ],
+    "repaired_with": "meguca_plate",
     "bash_dmg_verb": "ripped",
     "cut_dmg_verb": "sliced"
   },
@@ -26,7 +27,7 @@
     "id": "meguca_alloy",
     "name": "Mana Weave",
     "//": "meant to be magical material that is easy to compact, compress, but can remain rigid.",
-    "density": 5,
+    "density": 1,
     "specific_heat_liquid": 4.01,
     "specific_heat_solid": 4.01,
     "latent_heat": 330,
@@ -40,6 +41,7 @@
     "elec_resist": 8,
     "chip_resist": 8,
     "dmg_adj": [ "scratched", "cut", "shredded", "tattered" ],
+    "repaired_with": "meguca_plate",
     "bash_dmg_verb": "ripped",
     "cut_dmg_verb": "sliced"
   }
