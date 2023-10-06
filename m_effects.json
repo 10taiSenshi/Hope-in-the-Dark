@@ -73,5 +73,15 @@
     "remove_message": "The world returns to normal speeds.",
     "rating": "good",
     "base_mods": { "dex_mod": [ 4 ], "speed_mod": [ 800 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "powerarmormegucaon",
+    "name": [ "Tyr's Cladding Strength" ],
+    "desc": [ "Tyr's Cladding is active. Woe to all that dares oppose you." ],
+    "apply_message": "The armor surges to life, and the weight of the world seems to fade.",
+    "remove_message": "The armor powers down, and your strength returns to normal.",
+    "rating": "good",
+    "base_mods": { "int_mod": [ 0 ], "per_mod": [ 0 ], "dex_mod": [ 0 ], "str_mod": [ 20 ], "speed_mod": [ 0 ] }
   }
 ]

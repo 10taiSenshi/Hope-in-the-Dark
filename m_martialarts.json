@@ -51,6 +51,7 @@
       "%s strikes a powerful pose and readies their fists."
     ],
     "learn_difficulty": 1,
+    "primary_skill": "unarmed",
     "arm_block": 1,
     "leg_block": 2,
     "static_buffs": [
@@ -87,5 +88,30 @@
     ],
     "techniques": [ "tec_ccpunch", "tec_cccounterkick", "tec_cc_rapid", "tec_cc_crush", "tec_cc_spin", "tech_cc_shockwave" ],
     "weapon_category": [ "TONFAS", "FIST_WEAPONS" ]
+  },
+  {
+    "type": "martial_art",
+    "id": "style_dragonslayer",
+    "name": { "str": "Dragon Slayer Arms" },
+    "description": "The armor you made had its own quirks to get used to, but that is its own strength as well. Needed to wield Naegling properly.",
+    "initiate": [
+      "You take a deep breath, and heavesNaegling onto your shoulder.",
+      "%s takes a deep breath, and heave Naegling onto their shoulder."
+    ],
+    "learn_difficulty": 1,
+	"strictly_melee": true,
+    "primary_skill": "cutting",
+    "arm_block": 1,
+    "static_buffs": [
+      {
+        "id": "buff_dragonslayer",
+        "name": "Zornhut",
+        "description": "A ready stance, ready to both attack and defend.\n\n+2 Cut damage, Blocked damge reduced by 80% of Strength.",
+        "unarmed_allowed": true,
+        "flat_bonuses": [ { "stat": "block", "scaling-stat": "str", "scale": 0.8 }, { "stat": "damage", "type": "cut", "scale": 1.1 } ]
+      }
+    ],
+    "techniques": [ "naegling_straight", "naegling_swift", "naegling_crit", "naegling_wide", "naegling_impale" ],
+	"weapons": "zweihander_meguca"
   }
 ]

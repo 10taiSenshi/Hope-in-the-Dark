@@ -76,5 +76,77 @@
     "aoe": "wide",
     "description": "Smash the enemy and emanate a shockwave in front of you.",
     "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 0.8 } ]
+  },
+  {
+    "type": "technique",
+    "id": "naegling_straight",
+    "name": "STRAIGHT CUT",
+    "messages": [ "You launch a straight cut at %s", "<npcname> launch a straight cut at at %s" ],
+    "description": "Slightly stronger normal attacks.",
+    "melee_allowed": true,
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.05 },
+      { "stat": "damage", "type": "cut", "scale": 1.0 },
+      { "stat": "damage", "type": "bash", "scale": 0.9 }
+    ]
+  },
+  {
+    "type": "technique",
+    "id": "naegling_swift",
+    "name": "HALFSWORD",
+    "messages": [ "Grabbing the back of the blade, you cut %s swiftly", "<npcname> halfswords the blade at %s for a swift shallow cut" ],
+    "melee_allowed": true,
+    "description": "Faster, less damaging attack.",
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.025 },
+      { "stat": "damage", "type": "bash", "scale": 0.5 },
+      { "stat": "damage", "type": "cut", "scale": 0.5 },
+      { "stat": "damage", "type": "stab", "scale": 0.5 }
+    ]
+  },
+  {
+    "type": "technique",
+    "id": "naegling_crit",
+    "name": "DRAGON SLAYER",
+    "messages": [ "You hit %s with a crushing blow.", "<npcname> hit %s with a crushing blow." ],
+    "melee_allowed": true,
+    "crit_tec": true,
+    "stun_dur": 1,
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.05 },
+      { "stat": "damage", "type": "cut", "scale": 1.2 },
+      { "stat": "damage", "type": "bash", "scale": 1.2 }
+    ],
+    "description": "Heavy attack that stuns, on crit only."
+  },
+  {
+    "type": "technique",
+    "id": "naegling_wide",
+    "name": "CLEAVE",
+    "unarmed_allowed": true,
+    "melee_allowed": true,
+    "weighting": 2,
+    "messages": [ "With a powerful swing, you cleave through %s", "<npcname> swings in a wide arc through %s" ],
+    "aoe": "wide",
+    "description": "Attack in a wide arc, hitting multiple targets",
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.05 },
+      { "stat": "damage", "type": "cut", "scale": 0.8 },
+      { "stat": "damage", "type": "bash", "scale": 0.8 }
+    ]
+  },
+  {
+    "type": "technique",
+    "id": "naegling_impale",
+    "name": "PIERCE",
+    "melee_allowed": true,
+    "messages": [ "You slam through %s ", "<npcname> pierces through %s" ],
+    "aoe": "impale",
+    "description": "Attack target and another one behind it",
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.05 },
+      { "stat": "damage", "type": "cut", "scale": 0.8 },
+      { "stat": "damage", "type": "bash", "scale": 0.8 }
+    ]
   }
 ]

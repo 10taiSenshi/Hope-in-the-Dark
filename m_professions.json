@@ -182,5 +182,36 @@
       "male": [ "pants", "boxer_shorts" ],
       "female": [ "skirt", "bra", "boy_shorts" ]
     }
+  },
+  {
+    "type": "profession",
+    "id": "meguca_dragonslayer",
+    "name": "Blast Burgundy",
+    "description": "You have dreamt of iron clad heroes all your life. Striving to make one yourself, you even augmented yourself for that moment. But, it was only shortly after the cataclysm happened that you suddenly and fervently starting clashing together parts. As if driven by divine will and pure instincts, you tooled together the Beowulf.",
+    "points": 3,
+    "traits": [ "meguca_dragonslayer" ],
+    "CBMs": [
+      "bio_ups",
+      "bio_metabolics",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_tools",
+      "bio_power_armor_interface"
+    ],
+    "spells": [ { "id": "altus_aqua_crystal", "level": 1 }, { "id": "meguca_repairplate", "level": 1 } ],
+    "skills": [ { "level": 1, "name": "spellcraft" }, { "level": 2, "name": "mechanics" }, { "level": 1, "name": "fabrication" } ],
+    "items": {
+      "both": {
+        "items": [
+          "power_armor_meguca",
+          "power_armor_helmet_meguca",
+          "power_armor_bscabbard_meguca",
+          "power_armor_back_holster_meguca",
+		  "zweihander_meguca",
+		  "plasma_gun_meguca",
+          "medukarepair"
+        ]
+      }
+    }
   }
 ]
