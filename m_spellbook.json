@@ -28,15 +28,15 @@
     "type": "GENERIC",
     "looks_like": "child_book",
     "category": "spellbooks",
-    "name": { "str": "Book of Mana Crystal", "str_pl": "Books of Mana Crystal" },
+    "name": { "str": "Book of Will Crystalization", "str_pl": "Books of Will Crystalization" },
     "//": "meduka book",
-    "description": "A simple notebook detailling the nuances of crystalizing mana",
+    "description": "A simple notebook detailling the nuances of crystalizing magic and will.",
     "weight": "585 g",
     "volume": "250 ml",
     "price": 5000,
     "symbol": "?",
     "color": "light_red",
-    "use_action": { "type": "learn_spell", "spells": [ "altus_aqua_crystal" ] }
+    "use_action": { "type": "learn_spell", "spells": [ "altus_aqua_crystal", "meguca_repairplate" ] }
   },
   {
     "id": "prismpinkbook",

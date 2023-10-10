@@ -1,9 +1,9 @@
 [
   {
     "id": "megucahopewand",
-    "type": "GENERIC",
+    "type": "GUN",
     "category": "weapons",
-    "weapon_category": [ "CLUBS", "BATONS" ],
+    "weapon_category": [ "CLUBS", "BATONS", "REVOLVERS" ],
     "symbol": "/",
     "color": "pink",
     "looks_like": "bat_nerf",
@@ -40,7 +40,7 @@
   },
   {
     "id": "megucarapiergun",
-    "type": "GENERIC",
+    "type": "GUN",
     "category": "weapons",
     "weapon_category": [ "DUELING_SWORDS", "REVOLVERS" ],
     "symbol": "/",

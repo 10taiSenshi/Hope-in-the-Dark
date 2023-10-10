@@ -165,7 +165,7 @@
     "starting_trait": false,
     "armor": [ { "parts": "ALL", "physical": 1 } ],
     "passive_mods": { "dex_mod": 1, "str_mod": 1, "per_mod": 1, "int_mod": 1 },
-	"initial_ma_styles": [ "style_dragonslayer" ],
+    "initial_ma_styles": [ "style_dragonslayer" ],
     "stamina_regen_modifier": 4.5,
     "max_stamina_modifier": 4.5
   }

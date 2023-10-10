@@ -19,7 +19,7 @@
     "items": {
       "both": {
         "items": [
-          "tshirt",
+          "longshirt",
           "socks",
           "sneakers",
           "ZSG",
@@ -55,9 +55,9 @@
     "items": {
       "both": {
         "items": [
-          "tshirt",
+          "dress_shirt",
           "socks",
-          "sneakers",
+          "dress_shoes",
           "ZSG",
           "backpack",
           "wristwatch",
@@ -68,7 +68,7 @@
         ]
       },
       "male": [ "pants", "boxer_shorts" ],
-      "female": [ "skirt", "bra", "boy_shorts" ]
+      "female": [ "skirt", "blazer", "unitard" ]
     }
   },
   {
@@ -101,8 +101,8 @@
           "medukarepair"
         ]
       },
-      "male": [ "pants", "boxer_shorts" ],
-      "female": [ "skirt", "bra", "boy_shorts" ]
+      "male": [ "pants", "under_armor_shorts" ],
+      "female": [ "skirt", "under_armor", "under_armor_shorts" ]
     }
   },
   {
@@ -123,7 +123,7 @@
     "traits": [ "meguca_guntrick" ],
     "items": {
       "both": {
-        "items": [ "tshirt", "cowboy_hat", "socks", "sneakers", "ZSG", "backpack", "wristwatch", "smart_phone", "medukarepair" ],
+        "items": [ "tshirt", "cowboy_hat", "socks", "boots_western", "ZSG", "backpack", "wristwatch", "smart_phone", "medukarepair" ],
         "entries": [
           { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
           { "item": "guntrickponcho", "ammo-item": "45colt_jhp", "charges": 50 },
@@ -131,7 +131,7 @@
         ]
       },
       "male": [ "pants", "boxer_shorts" ],
-      "female": [ "skirt", "bra", "boy_shorts" ]
+      "female": [ "skirt", "tank_top", "panties" ]
     }
   },
   {
@@ -148,7 +148,7 @@
         "items": [ "tshirt", "socks", "sneakers", "ZSG", "backpack", "wristwatch", "smart_phone", "pr_shield", "medukarepair" ]
       },
       "male": [ "pants", "boxer_shorts" ],
-      "female": [ "skirt", "bra", "boy_shorts" ]
+      "female": [ "skirt", "corset", "panties" ]
     }
   },
   {
@@ -169,18 +169,19 @@
         "items": [
           "tshirt",
           "socks",
-          "sneakers",
+          "thigh_high_boots",
           "ZSG",
           "backpack",
           "wristwatch",
           "smart_phone",
           "rideryoke_harness",
           "magic_bridle",
+          "vest_leather",
           "medukarepair"
         ]
       },
       "male": [ "pants", "boxer_shorts" ],
-      "female": [ "skirt", "bra", "boy_shorts" ]
+      "female": [ "skirt", "undershirt", "panties" ]
     }
   },
   {
@@ -207,8 +208,8 @@
           "power_armor_helmet_meguca",
           "power_armor_bscabbard_meguca",
           "power_armor_back_holster_meguca",
-		  "zweihander_meguca",
-		  "plasma_gun_meguca",
+          "zweihander_meguca",
+          "plasma_gun_meguca",
           "medukarepair"
         ]
       }

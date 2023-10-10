@@ -1,0 +1,13 @@
+[
+  {
+    "type": "mutation",
+    "id": "MEGUCASTART",
+    "name": { "str": "Magically Imbued" },
+    "points": 4,
+    "visibility": 1,
+    "ugliness": 1,
+    "description": "Your magic has awakened, though not manifested in full. Reinforcements and better mana crystal generation is all you can do for now.",
+    "starting_trait": true,
+    "category": [ "ALPHA", "FELINE", "LUPINE" ]
+  }
+]

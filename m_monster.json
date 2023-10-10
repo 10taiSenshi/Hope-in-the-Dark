@@ -53,7 +53,7 @@
     "description": "A jet black horse, with abyssal eyes that draws in all light. Supernatural strength allows it to pull even the heaviest of vehicles.  Fierce, and loyal only to you. Rage fills its heart and without proper care to restrain or cage it, it will go out into the world unknown and smash anything that it deems a travesty to the natural world",
     "looks_like": "mon_horse",
     "//": "do appearance for black horse later on",
-    "default_faction": "herbivore",
+    "default_faction": "player",
     "bodytype": "quadruped",
     "categories": [ "NULL" ],
     "species": [ "MAMMAL" ],

@@ -99,7 +99,7 @@
       "%s takes a deep breath, and heave Naegling onto their shoulder."
     ],
     "learn_difficulty": 1,
-	"strictly_melee": true,
+    "strictly_melee": true,
     "primary_skill": "cutting",
     "arm_block": 1,
     "static_buffs": [
@@ -112,6 +112,6 @@
       }
     ],
     "techniques": [ "naegling_straight", "naegling_swift", "naegling_crit", "naegling_wide", "naegling_impale" ],
-	"weapons": "zweihander_meguca"
+    "weapons": "zweihander_meguca"
   }
 ]

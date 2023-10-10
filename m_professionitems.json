@@ -1,0 +1,12 @@
+[
+  {
+    "type": "profession_item_substitutions",
+    "bonus": { "present": [ "MEGUCASTART" ] },
+    "item": "medukacrystalbook"
+  },
+  {
+    "type": "profession_item_substitutions",
+    "bonus": { "present": [ "MEGUCASTART" ] },
+    "item": "medukarepair"
+  }
+]

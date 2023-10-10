@@ -12,7 +12,7 @@
     "bashing": 8,
     "storage": "9999 L",
     "weight_capacity_modifier": 5,
-    "material": ["meguca_hope", "kevlar" ], 
+    "material": [ "meguca_hope", "kevlar" ],
     "symbol": "[",
     "color": "dark_gray",
     "covers": [ "arm_either", "hand_either" ],
@@ -83,8 +83,8 @@
           "meguca_hope"
         ],
         "skill": "spellcraft",
-        "tool_quality": 30,
-        "cost_scaling": 0.1,
+        "tool_quality": 100,
+        "cost_scaling": 0.01,
         "move_cost": 800
       },
       {
@@ -106,7 +106,7 @@
           "meguca_hope"
         ],
         "skill": "spellcraft",
-        "clothing_mods": [ "leather_padded", "steel_padded", "alloy_padded", "kevlar_padded", "furred", "wooled" ]
+        "clothing_mods": [ "leather_padded", "steel_padded", "alloy_padded", "kevlar_padded", "furred", "wooled", "magic_plated" ]
       }
     ],
     "flags": [ "ALLOWS_REMOTE_USE" ]

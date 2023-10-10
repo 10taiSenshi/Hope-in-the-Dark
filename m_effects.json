@@ -7,7 +7,7 @@
     "apply_message": "Hope has come!",
     "remove_message": "Your energy fades.",
     "rating": "good",
-    "base_mods": { "int_mod": [ 5 ], "per_mod": [ 5 ], "dex_mod": [ 5 ], "str_mod": [ 5 ], "speed_mod": [ 10 ] }
+    "base_mods": { "int_mod": [ 15 ], "per_mod": [ 15 ], "dex_mod": [ 15 ], "str_mod": [ 15 ], "speed_mod": [ 20 ] }
   },
   {
     "type": "effect_type",
@@ -17,7 +17,7 @@
     "apply_message": "Calm suffuses throughout you; punishment is upon the sinners!",
     "remove_message": "Your energy fades.",
     "rating": "good",
-    "base_mods": { "int_mod": [ 3 ], "per_mod": [ 5 ], "dex_mod": [ 10 ], "str_mod": [ 0 ], "speed_mod": [ 30 ] }
+    "base_mods": { "int_mod": [ 13 ], "per_mod": [ 15 ], "dex_mod": [ 20 ], "str_mod": [ 10 ], "speed_mod": [ 50 ] }
   },
   {
     "type": "effect_type",
@@ -27,7 +27,7 @@
     "apply_message": "Where evil reigns, Justice has come!",
     "remove_message": "Your energy fades.",
     "rating": "good",
-    "base_mods": { "int_mod": [ 0 ], "per_mod": [ 5 ], "dex_mod": [ 7 ], "str_mod": [ 12 ], "speed_mod": [ 5 ] }
+    "base_mods": { "int_mod": [ 10 ], "per_mod": [ 15 ], "dex_mod": [ 17 ], "str_mod": [ 22 ], "speed_mod": [ 15 ] }
   },
   {
     "type": "effect_type",
@@ -37,7 +37,7 @@
     "apply_message": "Your muscles flex as you start using your mana explosively.",
     "remove_message": "Mana fades from your body as you return to normal.",
     "rating": "good",
-    "base_mods": { "int_mod": [ 5 ], "per_mod": [ 10 ], "dex_mod": [ 15 ], "str_mod": [ 30 ], "speed_mod": [ 100 ] }
+    "base_mods": { "int_mod": [ 15 ], "per_mod": [ 20 ], "dex_mod": [ 25 ], "str_mod": [ 45 ], "speed_mod": [ 100 ] }
   },
   {
     "type": "effect_type",
@@ -61,8 +61,8 @@
     "int_add_val": 1,
     "apply_message": "Your legs freeze to the ground.",
     "remove_message": "The ice weakens enough to break free.",
-    "base_mods": { "speed_mod": [ -40 ] },
-    "scaling_mods": { "speed_mod": [ -10 ] }
+    "base_mods": { "mod_moves": [ -100 ] },
+    "scaling_mods": { "mod_moves": [ -50 ] }
   },
   {
     "type": "effect_type",
@@ -72,13 +72,13 @@
     "apply_message": "The world slows down around you.",
     "remove_message": "The world returns to normal speeds.",
     "rating": "good",
-    "base_mods": { "dex_mod": [ 4 ], "speed_mod": [ 800 ] }
+    "base_mods": { "dex_mod": [ 4 ], "speed_mod": [ 80000 ] }
   },
   {
     "type": "effect_type",
     "id": "powerarmormegucaon",
-    "name": [ "Tyr's Cladding Strength" ],
-    "desc": [ "Tyr's Cladding is active. Woe to all that dares oppose you." ],
+    "name": [ "Beowulf's Strength" ],
+    "desc": [ "Beowulf is active. Woe to all that dares oppose you." ],
     "apply_message": "The armor surges to life, and the weight of the world seems to fade.",
     "remove_message": "The armor powers down, and your strength returns to normal.",
     "rating": "good",
