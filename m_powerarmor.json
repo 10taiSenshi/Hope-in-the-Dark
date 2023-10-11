@@ -19,7 +19,7 @@
     "encumbrance": 20,
     "storage": "15 L",
     "warmth": 60,
-    "material_thickness": 7,
+    "material_thickness": 9,
     "environmental_protection": 16,
     "use_action": {
       "type": "set_transform",
@@ -78,7 +78,7 @@
     "coverage": 100,
     "encumbrance": 20,
     "warmth": 60,
-    "material_thickness": 7,
+    "material_thickness": 9,
     "environmental_protection": 16,
     "use_action": {
       "type": "set_transformed",
@@ -136,6 +136,7 @@
       "holster_prompt": "Sheath sword",
       "holster_msg": "You sheath your %s",
       "max_volume": "50 L",
+      "multi": 2,
       "draw_cost": 140,
       "flags": [ "SHEATH_SWORD", "SHEATH_AXE" ]
     },
@@ -160,6 +161,7 @@
     "use_action": {
       "type": "holster",
       "max_volume": "50 L",
+      "multi": 2,
       "min_volume": "1500 ml",
       "draw_cost": 140,
       "skills": [ "smg", "shotgun", "rifle", "launcher" ]

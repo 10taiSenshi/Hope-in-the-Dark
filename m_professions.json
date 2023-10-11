@@ -15,7 +15,7 @@
       { "id": "meguca_repairplate", "level": 1 }
     ],
     "traits": [ "meguca_hope" ],
-    "skills": [ { "level": 2, "name": "spellcraft" }, { "level": 1, "name": "dodge" } ],
+    "skills": [ { "level": 3, "name": "spellcraft" }, { "level": 2, "name": "dodge" } ],
     "items": {
       "both": {
         "items": [
@@ -50,7 +50,7 @@
       { "id": "aa_spell3", "level": 1 },
       { "id": "aa_spell4", "level": 1 }
     ],
-    "skills": [ { "level": 1, "name": "spellcraft" }, { "level": 1, "name": "pistol" }, { "level": 1, "name": "dodge" } ],
+    "skills": [ { "level": 2, "name": "spellcraft" }, { "level": 2, "name": "pistol" }, { "level": 2, "name": "dodge" } ],
     "traits": [ "meguca_calm" ],
     "items": {
       "both": {
@@ -83,7 +83,7 @@
       { "id": "meguca_repairplate", "level": 1 },
       { "id": "altus_aqua_crystal", "level": 1 }
     ],
-    "skills": [ { "level": 1, "name": "unarmed" }, { "level": 1, "name": "melee" }, { "level": 1, "name": "dodge" } ],
+    "skills": [ { "level": 2, "name": "unarmed" }, { "level": 2, "name": "melee" }, { "level": 2, "name": "dodge" } ],
     "traits": [ "meguca_feeling" ],
     "vehicle": "motorcycle_sidecart",
     "items": {
@@ -119,7 +119,7 @@
       { "id": "altus_aqua_crystal", "level": 1 },
       { "id": "meguca_repairplate", "level": 1 }
     ],
-    "skills": [ { "level": 1, "name": "gun" }, { "level": 1, "name": "pistol" }, { "level": 1, "name": "dodge" } ],
+    "skills": [ { "level": 2, "name": "gun" }, { "level": 2, "name": "pistol" }, { "level": 2, "name": "dodge" } ],
     "traits": [ "meguca_guntrick" ],
     "items": {
       "both": {
@@ -141,7 +141,7 @@
     "description": "You never did have the head for more flashy magical stuff. Instead you trained with your magic to be able to wear heavier armor without penalty. As if in sympathy to your desire, a shield appeared on your arm, allowing you to store almost anything in it, with the caveat that you still had to carry the weight of all the items you put in it.",
     "points": 3,
     "spells": [ { "id": "altus_aqua_crystal", "level": 1 }, { "id": "meguca_repairplate", "level": 1 } ],
-    "skills": [ { "level": 1, "name": "gun" }, { "level": 1, "name": "melee" }, { "level": 1, "name": "dodge" } ],
+    "skills": [ { "level": 2, "name": "gun" }, { "level": 2, "name": "melee" }, { "level": 2, "name": "dodge" } ],
     "traits": [ "meguca_panzerritter" ],
     "items": {
       "both": {
@@ -163,7 +163,7 @@
       { "id": "rr_horsecall", "level": 1 },
       { "id": "rr_yoke", "level": 1 }
     ],
-    "skills": [ { "level": 2, "name": "spellcraft" }, { "level": 2, "name": "mechanics" }, { "level": 2, "name": "driving" } ],
+    "skills": [ { "level": 3, "name": "spellcraft" }, { "level": 2, "name": "mechanics" }, { "level": 2, "name": "driving" } ],
     "items": {
       "both": {
         "items": [
@@ -191,16 +191,9 @@
     "description": "You have dreamt of iron clad heroes all your life. Striving to make one yourself, you even augmented yourself for that moment. But, it was only shortly after the cataclysm happened that you suddenly and fervently starting clashing together parts. As if driven by divine will and pure instincts, you tooled together the Beowulf.",
     "points": 3,
     "traits": [ "meguca_dragonslayer" ],
-    "CBMs": [
-      "bio_ups",
-      "bio_metabolics",
-      "bio_power_storage_mkII",
-      "bio_power_storage_mkII",
-      "bio_tools",
-      "bio_power_armor_interface"
-    ],
+    "CBMs": [ "bio_ups", "bio_metabolics", "bio_tools", "bio_power_armor_interface" ],
     "spells": [ { "id": "altus_aqua_crystal", "level": 1 }, { "id": "meguca_repairplate", "level": 1 } ],
-    "skills": [ { "level": 1, "name": "spellcraft" }, { "level": 2, "name": "mechanics" }, { "level": 1, "name": "fabrication" } ],
+    "skills": [ { "level": 2, "name": "spellcraft" }, { "level": 3, "name": "mechanics" }, { "level": 2, "name": "fabrication" } ],
     "items": {
       "both": {
         "items": [
@@ -214,5 +207,30 @@
         ]
       }
     }
+  },
+  {
+    "type": "profession",
+    "id": "meguca_machinemaiden",
+    "name": "Machine Maiden Eurydice",
+    "description": "You have died, but even when the light faded from your eyes, your feelings have not lessened. In that fleeting darkness however, a sharp thread of light cut through, asking you whether you still wanted to help. The answer was obvious. Soon you awoke in the body of a Machine Maiden, your memories of that red haired woman hazy and fleeting. With your body now of the stronger Machine Maidens, designed to fight in the most hazardous of environments, you have a clear path to follow.",
+    "points": 3,
+    "CBMs": [
+      "bio_ups",
+      "bio_climate",
+      "bio_armor_arms",
+      "bio_armor_head",
+      "bio_armor_legs",
+      "bio_armor_torso",
+      "bio_heatsink",
+      "bio_shock_absorber",
+      "bio_jointservo",
+      "bio_batteries",
+      "meguca_machine_maiden_smg",
+      "meguca_machine_maiden_halberd",
+      "machine_maiden_overload",
+      "meguca_machine_maiden_chassis"
+    ],
+    "skills": [ { "level": 2, "name": "gun" }, { "level": 3, "name": "mechanics" }, { "level": 2, "name": "fabrication" } ],
+    "items": { "both": { "items": [ "sheet" ] } }
   }
 ]

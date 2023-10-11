@@ -1,0 +1,108 @@
+[
+  {
+    "id": "meguca_machine_maiden_chassis",
+    "name": "Machine Maiden Chassis",
+    "type": "bionic",
+    "description": "Chassis for a Machine Maiden. The frameworks of a versatile magic human-extinction-event prevention model, complete with the experimental ports and couplings to interface with power armors if activated. Most environmental effects can be negated with this frame. The feminine curves suggests this is meant to be entirely female production line.",
+    "flags": [ "BIONIC_ARMOR_INTERFACE", "BIONIC_TOGGLED", "BIONIC_SHOCKPROOF" ],
+    "weight_capacity_modifier": 2,
+    "bash_protec": [
+      [ "torso", 10 ],
+      [ "head", 10 ],
+      [ "arm_l", 10 ],
+      [ "arm_r", 10 ],
+      [ "hand_l", 10 ],
+      [ "hand_r", 10 ],
+      [ "leg_l", 10 ],
+      [ "leg_r", 10 ],
+      [ "foot_l", 10 ],
+      [ "foot_r", 10 ]
+    ],
+    "cut_protec": [
+      [ "torso", 10 ],
+      [ "head", 10 ],
+      [ "arm_l", 10 ],
+      [ "arm_r", 10 ],
+      [ "hand_l", 10 ],
+      [ "hand_r", 10 ],
+      [ "leg_l", 10 ],
+      [ "leg_r", 10 ],
+      [ "foot_l", 10 ],
+      [ "foot_r", 10 ]
+    ],
+    "bullet_protec": [
+      [ "torso", 10 ],
+      [ "head", 10 ],
+      [ "arm_l", 10 ],
+      [ "arm_r", 10 ],
+      [ "hand_l", 10 ],
+      [ "hand_r", 10 ],
+      [ "leg_l", 10 ],
+      [ "leg_r", 10 ],
+      [ "foot_l", 10 ],
+      [ "foot_r", 10 ]
+    ],
+    "env_protec": [
+      [ "torso", 20 ],
+      [ "head", 20 ],
+      [ "mouth", 20 ],
+      [ "eyes", 20 ],
+      [ "arm_l", 20 ],
+      [ "arm_r", 20 ],
+      [ "hand_l", 20 ],
+      [ "hand_r", 20 ],
+      [ "leg_l", 20 ],
+      [ "leg_r", 20 ],
+      [ "foot_l", 20 ],
+      [ "foot_r", 20 ]
+    ],
+    "occupied_bodyparts": [
+      [ "torso", 0 ],
+      [ "head", 0 ],
+      [ "arm_l", 0 ],
+      [ "arm_r", 0 ],
+      [ "hand_l", 0 ],
+      [ "hand_r", 0 ],
+      [ "leg_l", 0 ],
+      [ "leg_r", 0 ],
+      [ "foot_l", 0 ],
+      [ "foot_r", 0 ]
+    ],
+    "capacity": "100 kJ",
+    "fuel_efficiency": 2,
+    "stat_bonus": [ [ "INT", 2 ], [ "DEX", 2 ], [ "PER", 2 ], [ "STR", 2 ] ]
+  },
+  {
+    "id": "meguca_machine_maiden_smg",
+    "type": "bionic",
+    "name": { "str": "Agriope's Lament" },
+    "description": "Built into your left chassis' arm is Agriope's Lament, a 500 round submachine gun that loads most types of pistol ammo, though reloading the internal magazine takes a while. Activate to shoot/load the gun.",
+    "occupied_bodyparts": [ [ "arm_l", 0 ] ],
+    "encumbrance": [ [ "arm_l", 0 ] ],
+    "act_cost": "50 J",
+    "fake_item": "fake_machinemaiden_smg",
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "BIONIC_NPC_USABLE" ]
+  },
+  {
+    "id": "meguca_machine_maiden_halberd",
+    "type": "bionic",
+    "name": { "str": "Orpheus' Song" },
+    "description": "Built into your right chassis' arm is Orpheus' Song, a collapsible long poleaxe both sharp and strong. Activate to wield it or return it to its compartment.",
+    "occupied_bodyparts": [ [ "arm_r", 0 ] ],
+    "encumbrance": [ [ "arm_r", 0 ] ],
+    "act_cost": "50 J",
+    "fake_item": "fake_machinemaiden_halberd",
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "BIONIC_NPC_USABLE" ]
+  },
+  {
+    "id": "machine_maiden_overload",
+    "type": "bionic",
+    "name": "HADES System",
+    "description": "Activates the HADES System, turning off all safeties to the core within the chassis of the Machine Maiden. Exhausting to use and vents extreme heat while it is turned on, with complete meltdown soon afterwards if the Machine Maiden is unwary of their condition.",
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_SHOCKPROOF" ],
+    "act_cost": "50 J",
+    "react_cost": "100 J",
+    "time": 1,
+    "enchantments": [ "hadessystem" ]
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "meguca_machine_maiden_chassis",
+    "copy-from": "bionic_general",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Machine Maiden Chassis" },
+    "looks_like": "bio_int_enhancer",
+    "description": "Chassis for the Machine Maiden line.",
+    "price": 500000,
+    "weight": "500 g",
+    "difficulty": 6
+  },
+  {
+    "id": "meguca_machine_maiden_smg",
+    "copy-from": "bionic_general",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Agriope's Lament" },
+    "looks_like": "bio_int_enhancer",
+    "description": "SMG for the Machine Maiden line.",
+    "price": 500000,
+    "weight": "500 g",
+    "difficulty": 6
+  },
+  {
+    "id": "meguca_machine_maiden_halberd",
+    "copy-from": "bionic_general",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Orpheus' Song" },
+    "looks_like": "bio_int_enhancer",
+    "description": "Halberd for the Machine Maiden line.",
+    "price": 500000,
+    "weight": "500 g",
+    "difficulty": 6
+  },
+  {
+    "id": "machine_maiden_overload",
+    "copy-from": "bionic_general",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "HADES System" },
+    "looks_like": "bio_int_enhancer",
+    "description": "HADES System for the Machine Maiden line.",
+    "price": 500000,
+    "weight": "500 g",
+    "difficulty": 6
+  }
+]

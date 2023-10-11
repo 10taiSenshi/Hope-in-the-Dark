@@ -17,7 +17,7 @@
     "environmental_protection": 25,
     "encumbrance": 0,
     "warmth": 30,
-    "material_thickness": 2,
+    "material_thickness": 3,
     "flags": [ "ONLY_ONE", "VARSIZE", "OUTER", "SEMITANGIBLE", "STURDY", "ALLOWS_NATURAL_ATTACKS" ],
     "relic_data": {
       "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "megucahopebless", "intensity": 1 } ] } ]
@@ -41,7 +41,7 @@
     "environmental_protection": 25,
     "encumbrance": 0,
     "warmth": 30,
-    "material_thickness": 1,
+    "material_thickness": 2,
     "flags": [ "ONLY_ONE", "VARSIZE", "OUTER", "SEMITANGIBLE", "STURDY", "ALLOWS_NATURAL_ATTACKS" ],
     "relic_data": {
       "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "megucacalmbless", "intensity": 1 } ] } ]
@@ -65,7 +65,7 @@
     "environmental_protection": 25,
     "encumbrance": 0,
     "warmth": 30,
-    "material_thickness": 3,
+    "material_thickness": 5,
     "flags": [ "ONLY_ONE", "VARSIZE", "OUTER", "SEMITANGIBLE", "STURDY", "ALLOWS_NATURAL_ATTACKS" ],
     "relic_data": {
       "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "megucafeelingbless", "intensity": 1 } ] } ]
@@ -89,7 +89,7 @@
     "coverage": 85,
     "encumbrance": 3,
     "warmth": 30,
-    "material_thickness": 1,
+    "material_thickness": 2,
     "environmental_protection": 5,
     "use_action": {
       "type": "bandolier",
